@@ -27,6 +27,7 @@ The project includes:
 
 - ROS2 Kilted installed
 - Docker
+- X11 GUI
 
 ---
 
