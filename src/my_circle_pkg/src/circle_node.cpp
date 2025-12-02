@@ -9,8 +9,12 @@ class CircleNode : public rclcpp::Node
             {
                 publisher_= this->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 10);
 
-                velocity = 1.0;
-                angular_velocity = 1.0;
+                // ROS2 parameters for dynamic input
+                this->declare_parameter<double>("velocity", 5.5);
+                this->declare_parameter<double>("angular_velocity", 2.0;
+
+                this->get_parameter("velocity", velocity);
+                this->get_parameter("angular_velocity", angular_velocity);
 
                 double radius = velocity / angular_velocity;
                 double circumference = 2 * M_PI * radius;
