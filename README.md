@@ -62,7 +62,7 @@ chmod +x run_docker.sh
 ### Terminal 1 inside the container
 
 ```bash
-# export LIBGL_ALWAYS_SOFTWARE=1 # no need
+export LIBGL_ALWAYS_SOFTWARE=1
 ros2 run turtlesim turtlesim_node
 ```
 ### Terminal 2
