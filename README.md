@@ -2,7 +2,19 @@
 
 ## Overview
 
-`my_circle_pkg` is a ROS2 Kilted package that publishes `geometry_msgs/Twist` messages to move a turtle in a circle in `turtlesim`. It allows dynamic input for values of velocity and angular velocity which is used to measure radius and circumfirance of the circle. It has used std message type. The logic behind the code is normal mathmatical formula. radius = v/w.
+my_circle_pkg is a ROS2 Kilted package that makes a turtle move in a circle in turtlesim. The node:
+
+Publishes geometry_msgs/Twist messages to "turtle1/cmd_vel" at a fixed rate, using user-defined linear (velocity) and angular (angular_velocity) speeds.
+
+Subscribes to "turtle1/cmd_vel" to print the velocity commands it sends, showing real-time feedback.
+
+The node calculates the circle’s radius and circumference using:
+```bash
+radius = velocity / angular_velocity
+circumference = 2 * pi * radius
+```
+It uses standard ROS2 message types, a timer for periodic publishing, and ROS2 parameters for dynamic input.
+
 The project includes:
 
 - `circle_node`: ROS2 publisher node.
@@ -35,7 +47,7 @@ ros2 run turtlesim turtlesim_node
 ```
 ### Terminal 1
 ```bash
-ros2 run my_circle_pkg circle_node
+ros2 run my_circle_pkg circle_node --ros-args -p velocity:=5.5 -p angular_velocity:=2.0
 ```
 
 ### ---------- With Docker -----------#

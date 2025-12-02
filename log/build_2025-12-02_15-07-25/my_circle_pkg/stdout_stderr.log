@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/circle_node.dir/src/circle_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable circle_node[0m
+[100%] Built target circle_node
+-- Install configuration: ""
+-- Installing: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/lib/my_circle_pkg/circle_node
+-- Set non-toolchain portion of runtime path of "/home/johra-oishi/onboarding2_ws/install/my_circle_pkg/lib/my_circle_pkg/circle_node" to ""
+-- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/ament_index/resource_index/package_run_dependencies/my_circle_pkg
+-- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/ament_index/resource_index/parent_prefix_path/my_circle_pkg
+-- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/environment/ament_prefix_path.sh
+-- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/environment/path.sh
+-- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/environment/path.dsv
+-- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/local_setup.bash
+-- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/local_setup.sh
+-- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/local_setup.zsh
+-- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/local_setup.dsv
+-- Installing: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/package.dsv
+-- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/ament_index/resource_index/packages/my_circle_pkg
+-- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/cmake/my_circle_pkgConfig.cmake
+-- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/cmake/my_circle_pkgConfig-version.cmake
+-- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/package.xml

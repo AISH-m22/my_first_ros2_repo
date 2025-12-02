@@ -9,9 +9,17 @@ class CircleNode : public rclcpp::Node
             {
                 publisher_= this->create_publisher<geometry_msgs::msg::Twist>("turtle1/cmd_vel", 10);
 
+                subscriber_ = this->create_subscription<geometry_msgs::msg::Twist>(
+                "turtle1/cmd_vel", 10,
+                [this](const geometry_msgs::msg::Twist::SharedPtr msg) {
+                RCLCPP_INFO(this->get_logger(), 
+                "Subscriber received: linear=%.2f, angular=%.2f", 
+                msg->linear.x, msg->angular.z);
+                 });
+
                 // ROS2 parameters for dynamic input
                 this->declare_parameter<double>("velocity", 5.5);
-                this->declare_parameter<double>("angular_velocity", 2.0;
+                this->declare_parameter<double>("angular_velocity", 2.0);
 
                 this->get_parameter("velocity", velocity);
                 this->get_parameter("angular_velocity", angular_velocity);
@@ -36,6 +44,7 @@ class CircleNode : public rclcpp::Node
             }
 
         rclcpp::Publisher<geometry_msgs::msg::Twist>::SharedPtr publisher_;
+        rclcpp::Subscription<geometry_msgs::msg::Twist>::SharedPtr subscriber_;
         rclcpp::TimerBase::SharedPtr timer_;
         double velocity, angular_velocity;
 };
