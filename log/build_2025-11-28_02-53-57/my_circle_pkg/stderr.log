@@ -1,0 +1,75 @@
+[01m[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:[m[K In constructor ‘[01m[KCircleNode::[01;32m[KCircleNode[m[K()[m[K’:
+[01m[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:15:44:[m[K [01;31m[Kerror: [m[K‘[01m[Kangilar_velocity[m[K’ was not declared in this scope; did you mean ‘[01m[Kangular_velocity[m[K’?
+   15 |                 double radius = velocity / [01;31m[Kangilar_velocity[m[K;
+      |                                            [01;31m[K^~~~~~~~~~~~~~~~[m[K
+      |                                            [32m[Kangular_velocity[m[K
+In file included from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/rclcpp.hpp:171[m[K,
+                 from [01m[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:1[m[K:
+[01m[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:18:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kraidus[m[K’ was not declared in this scope; did you mean ‘[01m[Kradius[m[K’?
+   18 |           RCLCPP_INFO(this->get_logger(),"Cirlce radius: %2f", [01;31m[Kraidus[m[K);
+      |                                                                [01;31m[K^~~~~~[m[K
+
+[01m[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:19:49:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects a matching ‘[01m[Kdouble[m[K’ argument [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   19 |                 RCLCPP_INFO(this->get_logger(), [01;35m[K"Circumference: %2f, circumference"[m[K);
+      |                                                 [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:19:67:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   19 |           RCLCPP_INFO(this->get_logger(), "Circumference: [01;36m[K%2f[m[K, circumference");
+      |                                                           [01;36m[K~~^[m[K
+      |                                                             [01;36m[K|[m[K
+      |                                                             [01;36m[Kdouble[m[K
+
+[01m[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:22:32:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before user-defined string literal
+   22 |                     std::chrono[01;31m[K""milliseconds[m[K(100),
+      |                                [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:16:24:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kcircumference[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   16 |                 double [01;35m[Kcircumference[m[K = 2 * M_PI * radius;
+      |                        [01;35m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:[m[K In member function ‘[01m[Kvoid CircleNode::[01;32m[Kpublish_cmd[m[K()[m[K’:
+[01m[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:29:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kgeometry[m[K’ has not been declared
+   29 |                 [01;31m[Kgeometry[m[K::msgs::msg::Twist msg;
+      |                 [01;31m[K^~~~~~~~[m[K
+[01m[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:30:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+   30 |                 [01;31m[Kmsg[m[K.linear.x = velocity;
+      |                 [01;31m[K^~~[m[K
+[01m[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:30:17:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+In file included from [01m[K/opt/ros/kilted/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:156[m[K,
+                 from [01m[K/opt/ros/kilted/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21[m[K:
+[01m[K/opt/ros/kilted/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+   30 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/kilted/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:23[m[K,
+                 from [01m[K/opt/ros/kilted/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:267[m[K:
+[01m[K/opt/ros/kilted/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+   30 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+[01m[K/opt/ros/kilted/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:34:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kservice_msgs::msg[m[K’
+   34 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/kilted/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:26[m[K,
+                 from [01m[K/opt/ros/kilted/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+                 from [01m[K/opt/ros/kilted/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/subscription.hpp:50[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/any_executable.hpp:25[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/executor_options.hpp:22[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/executor.hpp:38[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/kilted/include/rclcpp/rclcpp/rclcpp.hpp:172[m[K:
+[01m[K/opt/ros/kilted/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+   30 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+In file included from [01m[K/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:24[m[K,
+                 from [01m[K/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7[m[K,
+                 from [01m[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:2[m[K:
+[01m[K/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kgeometry_msgs::msg[m[K’
+   30 | namespace [01;36m[Kmsg[m[K
+      |           [01;36m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/circle_node.dir/build.make:76: CMakeFiles/circle_node.dir/src/circle_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/circle_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

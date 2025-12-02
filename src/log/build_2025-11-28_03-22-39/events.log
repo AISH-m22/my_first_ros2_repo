@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.000606] (my_circle_pkg) JobQueued: {'identifier': 'my_circle_pkg', 'dependencies': OrderedDict()}
+[0.000659] (my_circle_pkg) JobStarted: {'identifier': 'my_circle_pkg'}
+[0.007642] (my_circle_pkg) JobProgress: {'identifier': 'my_circle_pkg', 'progress': 'cmake'}
+[0.008307] (my_circle_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/johra-oishi/onboarding2_ws/src/my_circle_pkg', '-DCMAKE_INSTALL_PREFIX=/home/johra-oishi/onboarding2_ws/src/install/my_circle_pkg'], 'cwd': '/home/johra-oishi/onboarding2_ws/src/build/my_circle_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'johra-oishi', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/johra-oishi', 'OLDPWD': '/home/johra-oishi/onboarding2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2583', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/johra-oishi/onboarding2_ws/install:/home/johra-oishi/ros2_ws/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'johra-oishi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'johra-oishi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/johra-oishi-VivoBook-ASUSLaptop-X421EAYB-K413EA:@/tmp/.ICE-unix/2542,unix/johra-oishi-VivoBook-ASUSLaptop-X421EAYB-K413EA:/tmp/.ICE-unix/2542', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d1c7309b_8a2a_42a1_90ea_511efd011ba0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SS9LG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.196', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/johra-oishi/onboarding2_ws/install/my_circle_pkg:/home/johra-oishi/ros2_ws/install/my_robot_controller:/opt/ros/kilted', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/johra-oishi/onboarding2_ws/src/build/my_circle_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/johra-oishi/ros2_ws/build/my_robot_controller:/home/johra-oishi/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/johra-oishi/onboarding2_ws/install/my_circle_pkg:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/johra-oishi/ros2_ws/install/my_robot_controller:/opt/ros/kilted'}), 'shell': False}
+[0.099313] (-) TimerEvent: {}
+[0.104240] (my_circle_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 13.3.0\n'}
+[0.182032] (my_circle_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 13.3.0\n'}
+[0.199430] (-) TimerEvent: {}
+[0.203171] (my_circle_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299576] (-) TimerEvent: {}
+[0.360178] (my_circle_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.382319] (my_circle_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.383067] (my_circle_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.384285] (my_circle_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.398613] (my_circle_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.399661] (-) TimerEvent: {}
+[0.500049] (-) TimerEvent: {}
+[0.600539] (-) TimerEvent: {}
+[0.602694] (my_circle_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.618413] (my_circle_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.618697] (my_circle_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.619220] (my_circle_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.622002] (my_circle_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)\n'}
+[0.700643] (-) TimerEvent: {}
+[0.799945] (my_circle_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.800722] (-) TimerEvent: {}
+[0.900970] (-) TimerEvent: {}
+[0.932309] (my_circle_pkg) StdoutLine: {'line': b'-- Found rclcpp: 29.5.3 (/opt/ros/kilted/share/rclcpp/cmake)\n'}
+[0.971227] (my_circle_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)\n'}
+[0.984758] (my_circle_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)\n'}
+[1.001096] (-) TimerEvent: {}
+[1.001352] (my_circle_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.019646] (my_circle_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.094974] (my_circle_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)\n'}
+[1.097464] (my_circle_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.101201] (-) TimerEvent: {}
+[1.184082] (my_circle_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  \n'}
+[1.201292] (-) TimerEvent: {}
+[1.201562] (my_circle_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.284541] (my_circle_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 5.5.1 (/opt/ros/kilted/share/geometry_msgs/cmake)\n'}
+[1.301415] (-) TimerEvent: {}
+[1.324503] (my_circle_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)\n'}
+[1.401500] (-) TimerEvent: {}
+[1.455555] (my_circle_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.455808] (my_circle_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.455910] (my_circle_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.457024] (my_circle_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.458686] (my_circle_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.458796] (my_circle_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.459481] (my_circle_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.461224] (my_circle_pkg) StdoutLine: {'line': b'-- Configuring done (1.4s)\n'}
+[1.481772] (my_circle_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[1.489127] (my_circle_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/johra-oishi/onboarding2_ws/src/build/my_circle_pkg\n'}
+[1.499737] (my_circle_pkg) CommandEnded: {'returncode': 0}
+[1.500536] (my_circle_pkg) JobProgress: {'identifier': 'my_circle_pkg', 'progress': 'build'}
+[1.501510] (my_circle_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/johra-oishi/onboarding2_ws/src/build/my_circle_pkg', '--', '-j8', '-l8'], 'cwd': '/home/johra-oishi/onboarding2_ws/src/build/my_circle_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'johra-oishi', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/johra-oishi', 'OLDPWD': '/home/johra-oishi/onboarding2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2583', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/johra-oishi/onboarding2_ws/install:/home/johra-oishi/ros2_ws/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'johra-oishi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'johra-oishi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/johra-oishi-VivoBook-ASUSLaptop-X421EAYB-K413EA:@/tmp/.ICE-unix/2542,unix/johra-oishi-VivoBook-ASUSLaptop-X421EAYB-K413EA:/tmp/.ICE-unix/2542', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d1c7309b_8a2a_42a1_90ea_511efd011ba0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SS9LG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.196', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/johra-oishi/onboarding2_ws/install/my_circle_pkg:/home/johra-oishi/ros2_ws/install/my_robot_controller:/opt/ros/kilted', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/johra-oishi/onboarding2_ws/src/build/my_circle_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/johra-oishi/ros2_ws/build/my_robot_controller:/home/johra-oishi/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/johra-oishi/onboarding2_ws/install/my_circle_pkg:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/johra-oishi/ros2_ws/install/my_robot_controller:/opt/ros/kilted'}), 'shell': False}
+[1.502029] (-) TimerEvent: {}
+[1.591881] (my_circle_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/circle_node.dir/src/circle_node.cpp.o\x1b[0m\n'}
+[1.602231] (-) TimerEvent: {}
+[1.702630] (-) TimerEvent: {}
+[1.802899] (-) TimerEvent: {}
+[1.903189] (-) TimerEvent: {}
+[2.003489] (-) TimerEvent: {}
+[2.104300] (-) TimerEvent: {}
+[2.204652] (-) TimerEvent: {}
+[2.305020] (-) TimerEvent: {}
+[2.405303] (-) TimerEvent: {}
+[2.505625] (-) TimerEvent: {}
+[2.605928] (-) TimerEvent: {}
+[2.706226] (-) TimerEvent: {}
+[2.806492] (-) TimerEvent: {}
+[2.906778] (-) TimerEvent: {}
+[3.007078] (-) TimerEvent: {}
+[3.107356] (-) TimerEvent: {}
+[3.207657] (-) TimerEvent: {}
+[3.307958] (-) TimerEvent: {}
+[3.408357] (-) TimerEvent: {}
+[3.508634] (-) TimerEvent: {}
+[3.609052] (-) TimerEvent: {}
+[3.709438] (-) TimerEvent: {}
+[3.809798] (-) TimerEvent: {}
+[3.910154] (-) TimerEvent: {}
+[4.010528] (-) TimerEvent: {}
+[4.110907] (-) TimerEvent: {}
+[4.211275] (-) TimerEvent: {}
+[4.311593] (-) TimerEvent: {}
+[4.411945] (-) TimerEvent: {}
+[4.512305] (-) TimerEvent: {}
+[4.612680] (-) TimerEvent: {}
+[4.712970] (-) TimerEvent: {}
+[4.813235] (-) TimerEvent: {}
+[4.913515] (-) TimerEvent: {}
+[5.013929] (-) TimerEvent: {}
+[5.114222] (-) TimerEvent: {}
+[5.214600] (-) TimerEvent: {}
+[5.314866] (-) TimerEvent: {}
+[5.415198] (-) TimerEvent: {}
+[5.515476] (-) TimerEvent: {}
+[5.615862] (-) TimerEvent: {}
+[5.716233] (-) TimerEvent: {}
+[5.816491] (-) TimerEvent: {}
+[5.916859] (-) TimerEvent: {}
+[6.017312] (-) TimerEvent: {}
+[6.117767] (-) TimerEvent: {}
+[6.154517] (my_circle_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable circle_node\x1b[0m\n'}
+[6.217897] (-) TimerEvent: {}
+[6.318302] (-) TimerEvent: {}
+[6.349599] (my_circle_pkg) StdoutLine: {'line': b'[100%] Built target circle_node\n'}
+[6.361800] (my_circle_pkg) CommandEnded: {'returncode': 0}
+[6.362452] (my_circle_pkg) JobProgress: {'identifier': 'my_circle_pkg', 'progress': 'install'}
+[6.371363] (my_circle_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/johra-oishi/onboarding2_ws/src/build/my_circle_pkg'], 'cwd': '/home/johra-oishi/onboarding2_ws/src/build/my_circle_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'johra-oishi', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/johra-oishi', 'OLDPWD': '/home/johra-oishi/onboarding2_ws', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2583', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/johra-oishi/onboarding2_ws/install:/home/johra-oishi/ros2_ws/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'johra-oishi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'johra-oishi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/johra-oishi-VivoBook-ASUSLaptop-X421EAYB-K413EA:@/tmp/.ICE-unix/2542,unix/johra-oishi-VivoBook-ASUSLaptop-X421EAYB-K413EA:/tmp/.ICE-unix/2542', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d1c7309b_8a2a_42a1_90ea_511efd011ba0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SS9LG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.196', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/johra-oishi/onboarding2_ws/install/my_circle_pkg:/home/johra-oishi/ros2_ws/install/my_robot_controller:/opt/ros/kilted', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/johra-oishi/onboarding2_ws/src/build/my_circle_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/johra-oishi/ros2_ws/build/my_robot_controller:/home/johra-oishi/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/johra-oishi/onboarding2_ws/install/my_circle_pkg:/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/johra-oishi/ros2_ws/install/my_robot_controller:/opt/ros/kilted'}), 'shell': False}
+[6.382308] (my_circle_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.382561] (my_circle_pkg) StdoutLine: {'line': b'-- Installing: /home/johra-oishi/onboarding2_ws/src/install/my_circle_pkg/lib/my_circle_pkg/circle_node\n'}
+[6.384067] (my_circle_pkg) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/johra-oishi/onboarding2_ws/src/install/my_circle_pkg/lib/my_circle_pkg/circle_node" to ""\n'}
+[6.384249] (my_circle_pkg) StdoutLine: {'line': b'-- Installing: /home/johra-oishi/onboarding2_ws/src/install/my_circle_pkg/share/ament_index/resource_index/package_run_dependencies/my_circle_pkg\n'}
+[6.384934] (my_circle_pkg) StdoutLine: {'line': b'-- Installing: /home/johra-oishi/onboarding2_ws/src/install/my_circle_pkg/share/ament_index/resource_index/parent_prefix_path/my_circle_pkg\n'}
+[6.385160] (my_circle_pkg) StdoutLine: {'line': b'-- Installing: /home/johra-oishi/onboarding2_ws/src/install/my_circle_pkg/share/my_circle_pkg/environment/ament_prefix_path.sh\n'}
+[6.385355] (my_circle_pkg) StdoutLine: {'line': b'-- Installing: /home/johra-oishi/onboarding2_ws/src/install/my_circle_pkg/share/my_circle_pkg/environment/ament_prefix_path.dsv\n'}
+[6.385527] (my_circle_pkg) StdoutLine: {'line': b'-- Installing: /home/johra-oishi/onboarding2_ws/src/install/my_circle_pkg/share/my_circle_pkg/environment/path.sh\n'}
+[6.385700] (my_circle_pkg) StdoutLine: {'line': b'-- Installing: /home/johra-oishi/onboarding2_ws/src/install/my_circle_pkg/share/my_circle_pkg/environment/path.dsv\n'}
+[6.385868] (my_circle_pkg) StdoutLine: {'line': b'-- Installing: /home/johra-oishi/onboarding2_ws/src/install/my_circle_pkg/share/my_circle_pkg/local_setup.bash\n'}
+[6.386053] (my_circle_pkg) StdoutLine: {'line': b'-- Installing: /home/johra-oishi/onboarding2_ws/src/install/my_circle_pkg/share/my_circle_pkg/local_setup.sh\n'}
+[6.386244] (my_circle_pkg) StdoutLine: {'line': b'-- Installing: /home/johra-oishi/onboarding2_ws/src/install/my_circle_pkg/share/my_circle_pkg/local_setup.zsh\n'}
+[6.386418] (my_circle_pkg) StdoutLine: {'line': b'-- Installing: /home/johra-oishi/onboarding2_ws/src/install/my_circle_pkg/share/my_circle_pkg/local_setup.dsv\n'}
+[6.386595] (my_circle_pkg) StdoutLine: {'line': b'-- Installing: /home/johra-oishi/onboarding2_ws/src/install/my_circle_pkg/share/my_circle_pkg/package.dsv\n'}
+[6.386831] (my_circle_pkg) StdoutLine: {'line': b'-- Installing: /home/johra-oishi/onboarding2_ws/src/install/my_circle_pkg/share/ament_index/resource_index/packages/my_circle_pkg\n'}
+[6.387056] (my_circle_pkg) StdoutLine: {'line': b'-- Installing: /home/johra-oishi/onboarding2_ws/src/install/my_circle_pkg/share/my_circle_pkg/cmake/my_circle_pkgConfig.cmake\n'}
+[6.387317] (my_circle_pkg) StdoutLine: {'line': b'-- Installing: /home/johra-oishi/onboarding2_ws/src/install/my_circle_pkg/share/my_circle_pkg/cmake/my_circle_pkgConfig-version.cmake\n'}
+[6.387549] (my_circle_pkg) StdoutLine: {'line': b'-- Installing: /home/johra-oishi/onboarding2_ws/src/install/my_circle_pkg/share/my_circle_pkg/package.xml\n'}
+[6.390234] (my_circle_pkg) CommandEnded: {'returncode': 0}
+[6.418377] (my_circle_pkg) JobEnded: {'identifier': 'my_circle_pkg', 'rc': 0}
+[6.419314] (-) TimerEvent: {}
+[6.419413] (-) EventReactorShutdown: {}

@@ -1,0 +1,171 @@
+[0.000000] (-) TimerEvent: {}
+[0.000432] (my_circle_pkg) JobQueued: {'identifier': 'my_circle_pkg', 'dependencies': OrderedDict()}
+[0.000558] (my_circle_pkg) JobStarted: {'identifier': 'my_circle_pkg'}
+[0.008917] (my_circle_pkg) JobProgress: {'identifier': 'my_circle_pkg', 'progress': 'cmake'}
+[0.009517] (my_circle_pkg) JobProgress: {'identifier': 'my_circle_pkg', 'progress': 'build'}
+[0.010115] (my_circle_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/johra-oishi/onboarding2_ws/build/my_circle_pkg', '--', '-j8', '-l8'], 'cwd': '/home/johra-oishi/onboarding2_ws/build/my_circle_pkg', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'johra-oishi', 'XDG_SESSION_TYPE': 'wayland', 'CLUTTER_DISABLE_MIPMAPPED_TEXT': '1', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/kilted/opt/zenoh_cpp_vendor/lib:/opt/ros/kilted/opt/gz_math_vendor/lib:/opt/ros/kilted/opt/gz_utils_vendor/lib:/opt/ros/kilted/opt/rviz_ogre_vendor/lib:/opt/ros/kilted/lib/x86_64-linux-gnu:/opt/ros/kilted/opt/gz_cmake_vendor/lib:/opt/ros/kilted/lib', 'HOME': '/home/johra-oishi', 'OLDPWD': '/home/johra-oishi/onboarding2_ws/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2583', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/johra-oishi/ros2_ws/install', 'ROS_DISTRO': 'kilted', 'LOGNAME': 'johra-oishi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'johra-oishi', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/kilted/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/johra-oishi-VivoBook-ASUSLaptop-X421EAYB-K413EA:@/tmp/.ICE-unix/2542,unix/johra-oishi-VivoBook-ASUSLaptop-X421EAYB-K413EA:/tmp/.ICE-unix/2542', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/d1c7309b_8a2a_42a1_90ea_511efd011ba0', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.SS9LG3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.196', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/johra-oishi/ros2_ws/install/my_robot_controller:/opt/ros/kilted', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/johra-oishi/onboarding2_ws/build/my_circle_pkg', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/johra-oishi/ros2_ws/build/my_robot_controller:/home/johra-oishi/ros2_ws/install/my_robot_controller/lib/python3.12/site-packages:/opt/ros/kilted/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/opt/ros/kilted/opt/gz_math_vendor:/opt/ros/kilted/opt/gz_utils_vendor:/opt/ros/kilted/opt/gz_cmake_vendor:/home/johra-oishi/ros2_ws/install/my_robot_controller:/opt/ros/kilted'}), 'shell': False}
+[0.041143] (my_circle_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)\n'}
+[0.099954] (-) TimerEvent: {}
+[0.200379] (-) TimerEvent: {}
+[0.300843] (-) TimerEvent: {}
+[0.381177] (my_circle_pkg) StdoutLine: {'line': b'-- Found rclcpp: 29.5.3 (/opt/ros/kilted/share/rclcpp/cmake)\n'}
+[0.401001] (-) TimerEvent: {}
+[0.423857] (my_circle_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)\n'}
+[0.434356] (my_circle_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)\n'}
+[0.447439] (my_circle_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.461025] (my_circle_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.501109] (-) TimerEvent: {}
+[0.522773] (my_circle_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)\n'}
+[0.524175] (my_circle_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.563695] (my_circle_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.601298] (-) TimerEvent: {}
+[0.629681] (my_circle_pkg) StdoutLine: {'line': b'-- Found geometry_msgs: 5.5.1 (/opt/ros/kilted/share/geometry_msgs/cmake)\n'}
+[0.659968] (my_circle_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)\n'}
+[0.701417] (-) TimerEvent: {}
+[0.779142] (my_circle_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.779356] (my_circle_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.779443] (my_circle_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.779663] (my_circle_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.780288] (my_circle_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.780375] (my_circle_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.780644] (my_circle_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.781313] (my_circle_pkg) StdoutLine: {'line': b'-- Configuring done (0.7s)\n'}
+[0.794039] (my_circle_pkg) StdoutLine: {'line': b'-- Generating done (0.0s)\n'}
+[0.799668] (my_circle_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/johra-oishi/onboarding2_ws/build/my_circle_pkg\n'}
+[0.801513] (-) TimerEvent: {}
+[0.881543] (my_circle_pkg) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/circle_node.dir/src/circle_node.cpp.o\x1b[0m\n'}
+[0.901680] (-) TimerEvent: {}
+[1.002114] (-) TimerEvent: {}
+[1.102418] (-) TimerEvent: {}
+[1.202785] (-) TimerEvent: {}
+[1.303112] (-) TimerEvent: {}
+[1.403446] (-) TimerEvent: {}
+[1.503763] (-) TimerEvent: {}
+[1.604081] (-) TimerEvent: {}
+[1.704406] (-) TimerEvent: {}
+[1.804800] (-) TimerEvent: {}
+[1.905094] (-) TimerEvent: {}
+[2.005391] (-) TimerEvent: {}
+[2.105730] (-) TimerEvent: {}
+[2.206048] (-) TimerEvent: {}
+[2.306437] (-) TimerEvent: {}
+[2.406709] (-) TimerEvent: {}
+[2.507009] (-) TimerEvent: {}
+[2.607477] (-) TimerEvent: {}
+[2.707863] (-) TimerEvent: {}
+[2.808256] (-) TimerEvent: {}
+[2.908631] (-) TimerEvent: {}
+[3.009006] (-) TimerEvent: {}
+[3.109393] (-) TimerEvent: {}
+[3.209790] (-) TimerEvent: {}
+[3.215858] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:35:27:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeomrey_msgs\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.216318] (my_circle_pkg) StderrLine: {'line': b'   35 |         rclcpp::Publisher<\x1b[01;31m\x1b[Kgeomrey_msgs\x1b[m\x1b[K::msg::Twist>::SharedPtr publisher_;\n'}
+[3.216401] (my_circle_pkg) StderrLine: {'line': b'      |                           \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.216469] (my_circle_pkg) StderrLine: {'line': b'      |                           \x1b[32m\x1b[Kgeometry_msgs\x1b[m\x1b[K\n'}
+[3.216537] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:35:51:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.216605] (my_circle_pkg) StderrLine: {'line': b'   35 |         rclcpp::Publisher<geomrey_msgs::msg::Twist\x1b[01;31m\x1b[K>\x1b[m\x1b[K::SharedPtr publisher_;\n'}
+[3.216672] (my_circle_pkg) StderrLine: {'line': b'      |                                                   \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[3.216737] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:35:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[3.216804] (my_circle_pkg) StderrLine: {'line': b'   35 |         rclcpp::Publisher<geomrey_msgs::msg::Twist>::\x1b[01;31m\x1b[KSharedPtr\x1b[m\x1b[K publisher_;\n'}
+[3.216870] (my_circle_pkg) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.216935] (my_circle_pkg) StderrLine: {'line': b'      |                                                               \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[3.217999] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:35:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 does not name a type; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.218131] (my_circle_pkg) StderrLine: {'line': b'   35 |      rclcpp::Publisher<geomrey_msgs::msg::Twist>::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[3.218214] (my_circle_pkg) StderrLine: {'line': b'      |                                                             \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.218280] (my_circle_pkg) StderrLine: {'line': b'      |                                                             \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[3.226241] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KCircleNode::\x1b[01;32m\x1b[KCircleNode\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.226420] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:10:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.226499] (my_circle_pkg) StderrLine: {'line': b'   10 |                 \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K= this->create_publisher<geometry_msgs::msg::Twist>("tutrtle/cmd_vel", 10);\n'}
+[3.226572] (my_circle_pkg) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.226639] (my_circle_pkg) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[3.235511] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:15:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kangilar_velocity\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kangular_velocity\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.235808] (my_circle_pkg) StderrLine: {'line': b'   15 |                 double radius = velocity / \x1b[01;31m\x1b[Kangilar_velocity\x1b[m\x1b[K;\n'}
+[3.235948] (my_circle_pkg) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.236082] (my_circle_pkg) StderrLine: {'line': b'      |                                            \x1b[32m\x1b[Kangular_velocity\x1b[m\x1b[K\n'}
+[3.242612] (my_circle_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/kilted/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.242774] (my_circle_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/kilted/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:27\x1b[m\x1b[K,\n'}
+[3.242851] (my_circle_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/kilted/include/rclcpp/rclcpp/rclcpp.hpp:171\x1b[m\x1b[K,\n'}
+[3.242918] (my_circle_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:1\x1b[m\x1b[K:\n'}
+[3.242986] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:18:70:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kraidus\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kradius\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.243056] (my_circle_pkg) StderrLine: {'line': b'   18 |           RCLCPP_INFO(this->get_logger(),"Cirlce radius: %2f", \x1b[01;31m\x1b[Kraidus\x1b[m\x1b[K);\n'}
+[3.243131] (my_circle_pkg) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[3.243233] (my_circle_pkg) StderrLine: {'line': b'\n'}
+[3.243468] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:19:49:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%f\x1b[m\x1b[K\xe2\x80\x99 expects a matching \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 argument [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.243592] (my_circle_pkg) StderrLine: {'line': b'   19 |                 RCLCPP_INFO(this->get_logger(), \x1b[01;35m\x1b[K"Circumference: %2f, circumference"\x1b[m\x1b[K);\n'}
+[3.243665] (my_circle_pkg) StderrLine: {'line': b'      |                                                 \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.243746] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:19:67:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[3.243818] (my_circle_pkg) StderrLine: {'line': b'   19 |           RCLCPP_INFO(this->get_logger(), "Circumference: \x1b[01;36m\x1b[K%2f\x1b[m\x1b[K, circumference");\n'}
+[3.243883] (my_circle_pkg) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[K~~^\x1b[m\x1b[K\n'}
+[3.243949] (my_circle_pkg) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[3.244014] (my_circle_pkg) StderrLine: {'line': b'      |                                                             \x1b[01;36m\x1b[Kdouble\x1b[m\x1b[K\n'}
+[3.244077] (my_circle_pkg) StderrLine: {'line': b'\n'}
+[3.244143] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:22:32:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected primary-expression before user-defined string literal\n'}
+[3.244222] (my_circle_pkg) StderrLine: {'line': b'   22 |                     std::chrono\x1b[01;31m\x1b[K""milliseconds\x1b[m\x1b[K(100),\n'}
+[3.244288] (my_circle_pkg) StderrLine: {'line': b'      |                                \x1b[01;31m\x1b[K^~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.248828] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:16:24:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kcircumference\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.248954] (my_circle_pkg) StderrLine: {'line': b'   16 |                 double \x1b[01;35m\x1b[Kcircumference\x1b[m\x1b[K = 2 * M_PI * radius;\n'}
+[3.249027] (my_circle_pkg) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.249444] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CircleNode::\x1b[01;32m\x1b[Kpublish_cmd\x1b[m\x1b[K()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.249564] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:29:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgeometry\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[3.249642] (my_circle_pkg) StderrLine: {'line': b'   29 |                 \x1b[01;31m\x1b[Kgeometry\x1b[m\x1b[K::msgs::msg::Twist msg;\n'}
+[3.249713] (my_circle_pkg) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[3.250241] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:30:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kmsg\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[3.250398] (my_circle_pkg) StderrLine: {'line': b'   30 |                 \x1b[01;31m\x1b[Kmsg\x1b[m\x1b[K.linear.x = velocity;\n'}
+[3.250481] (my_circle_pkg) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.250548] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:30:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Ksuggested alternatives:\n'}
+[3.250615] (my_circle_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/kilted/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:156\x1b[m\x1b[K,\n'}
+[3.250684] (my_circle_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/kilted/include/rcl_interfaces/rcl_interfaces/srv/list_parameters.hpp:7\x1b[m\x1b[K,\n'}
+[3.250752] (my_circle_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/kilted/include/rclcpp/rclcpp/copy_all_parameter_values.hpp:21\x1b[m\x1b[K:\n'}
+[3.250883] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/kilted/include/rcl_interfaces/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Krcl_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.250952] (my_circle_pkg) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.251015] (my_circle_pkg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.251078] (my_circle_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/kilted/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:23\x1b[m\x1b[K,\n'}
+[3.251143] (my_circle_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/kilted/include/rcl_interfaces/rcl_interfaces/srv/detail/list_parameters__struct.hpp:267\x1b[m\x1b[K:\n'}
+[3.251219] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/kilted/include/builtin_interfaces/builtin_interfaces/msg/detail/time__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kbuiltin_interfaces::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.251285] (my_circle_pkg) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.251350] (my_circle_pkg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.251414] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/kilted/include/service_msgs/service_msgs/msg/detail/service_event_info__struct.hpp:34:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kservice_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.251479] (my_circle_pkg) StderrLine: {'line': b'   34 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.251542] (my_circle_pkg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.251603] (my_circle_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/kilted/include/statistics_msgs/statistics_msgs/msg/detail/metrics_message__struct.hpp:26\x1b[m\x1b[K,\n'}
+[3.251678] (my_circle_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/kilted/include/statistics_msgs/statistics_msgs/msg/metrics_message.hpp:7\x1b[m\x1b[K,\n'}
+[3.251741] (my_circle_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/kilted/include/libstatistics_collector/libstatistics_collector/collector/generate_statistics_message.hpp:21\x1b[m\x1b[K,\n'}
+[3.251805] (my_circle_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/kilted/include/rclcpp/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23\x1b[m\x1b[K,\n'}
+[3.251871] (my_circle_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/kilted/include/rclcpp/rclcpp/subscription.hpp:50\x1b[m\x1b[K,\n'}
+[3.251935] (my_circle_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/kilted/include/rclcpp/rclcpp/any_executable.hpp:25\x1b[m\x1b[K,\n'}
+[3.251999] (my_circle_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/kilted/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.252064] (my_circle_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/kilted/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.252127] (my_circle_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/kilted/include/rclcpp/rclcpp/executor_options.hpp:22\x1b[m\x1b[K,\n'}
+[3.252200] (my_circle_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/kilted/include/rclcpp/rclcpp/executor.hpp:38\x1b[m\x1b[K,\n'}
+[3.252266] (my_circle_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/kilted/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.252328] (my_circle_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/kilted/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.252391] (my_circle_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/kilted/include/rclcpp/rclcpp/rclcpp.hpp:172\x1b[m\x1b[K:\n'}
+[3.252456] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/kilted/include/statistics_msgs/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kstatistics_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.252521] (my_circle_pkg) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.252583] (my_circle_pkg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.252645] (my_circle_pkg) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/twist__struct.hpp:24\x1b[m\x1b[K,\n'}
+[3.252709] (my_circle_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/twist.hpp:7\x1b[m\x1b[K,\n'}
+[3.252772] (my_circle_pkg) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:2\x1b[m\x1b[K:\n'}
+[3.252837] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/kilted/include/geometry_msgs/geometry_msgs/msg/detail/vector3__struct.hpp:30:11:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.252904] (my_circle_pkg) StderrLine: {'line': b'   30 | namespace \x1b[01;36m\x1b[Kmsg\x1b[m\x1b[K\n'}
+[3.252965] (my_circle_pkg) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K^~~\x1b[m\x1b[K\n'}
+[3.259500] (my_circle_pkg) StderrLine: {'line': b'\x1b[01m\x1b[K/home/johra-oishi/onboarding2_ws/src/my_circle_pkg/src/circle_node.cpp:32:17:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.259652] (my_circle_pkg) StderrLine: {'line': b'   32 |                 \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(msg);\n'}
+[3.259739] (my_circle_pkg) StderrLine: {'line': b'      |                 \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.259810] (my_circle_pkg) StderrLine: {'line': b'      |                 \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[3.309914] (-) TimerEvent: {}
+[3.410292] (-) TimerEvent: {}
+[3.510702] (-) TimerEvent: {}
+[3.611098] (-) TimerEvent: {}
+[3.711494] (-) TimerEvent: {}
+[3.811782] (-) TimerEvent: {}
+[3.912153] (-) TimerEvent: {}
+[4.012570] (-) TimerEvent: {}
+[4.112959] (-) TimerEvent: {}
+[4.199048] (my_circle_pkg) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/circle_node.dir/build.make:76: CMakeFiles/circle_node.dir/src/circle_node.cpp.o] Error 1\n'}
+[4.199369] (my_circle_pkg) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/circle_node.dir/all] Error 2\n'}
+[4.199544] (my_circle_pkg) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[4.201632] (my_circle_pkg) CommandEnded: {'returncode': 2}
+[4.209033] (my_circle_pkg) JobEnded: {'identifier': 'my_circle_pkg', 'rc': 2}
+[4.213060] (-) TimerEvent: {}
+[4.219764] (-) EventReactorShutdown: {}

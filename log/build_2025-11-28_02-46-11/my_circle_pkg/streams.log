@@ -1,0 +1,32 @@
+[0.009s] Invoking command in '/home/johra-oishi/onboarding2_ws/build/my_circle_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johra-oishi/ros2_ws/install/my_robot_controller:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/johra-oishi/onboarding2_ws/src/my_circle_pkg -DCMAKE_INSTALL_PREFIX=/home/johra-oishi/onboarding2_ws/install/my_circle_pkg
+[0.122s] -- The C compiler identification is GNU 13.3.0
+[0.223s] -- The CXX compiler identification is GNU 13.3.0
+[0.242s] -- Detecting C compiler ABI info
+[0.407s] -- Detecting C compiler ABI info - done
+[0.431s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.432s] -- Detecting C compile features
+[0.433s] -- Detecting C compile features - done
+[0.456s] -- Detecting CXX compiler ABI info
+[0.667s] -- Detecting CXX compiler ABI info - done
+[0.683s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.684s] -- Detecting CXX compile features
+[0.684s] -- Detecting CXX compile features - done
+[0.693s] -- Found ament_cmake: 2.7.3 (/opt/ros/kilted/share/ament_cmake/cmake)
+[0.935s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[1.046s] -- Found rclcpp: 29.5.3 (/opt/ros/kilted/share/rclcpp/cmake)
+[1.098s] -- Found rosidl_generator_c: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_c/cmake)
+[1.112s] -- Found rosidl_generator_cpp: 4.9.5 (/opt/ros/kilted/share/rosidl_generator_cpp/cmake)
+[1.129s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.147s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.226s] -- Found rmw_implementation_cmake: 7.8.2 (/opt/ros/kilted/share/rmw_implementation_cmake/cmake)
+[1.229s] -- Found rmw_fastrtps_cpp: 9.3.3 (/opt/ros/kilted/share/rmw_fastrtps_cpp/cmake)
+[1.325s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.13")  
+[1.347s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.428s] -- Found geometry_msgs: 5.5.1 (/opt/ros/kilted/share/geometry_msgs/cmake)
+[1.470s] -- Found ament_lint_auto: 0.19.2 (/opt/ros/kilted/share/ament_lint_auto/cmake)
+[1.601s] [31mCMake Error at CMakeLists.txt:26 (add_executables):
+[1.602s]   Unknown CMake command "add_executables".
+[1.602s] 
+[1.602s] [0m
+[1.602s] -- Configuring incomplete, errors occurred!
+[1.611s] Invoked command in '/home/johra-oishi/onboarding2_ws/build/my_circle_pkg' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johra-oishi/ros2_ws/install/my_robot_controller:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/johra-oishi/onboarding2_ws/src/my_circle_pkg -DCMAKE_INSTALL_PREFIX=/home/johra-oishi/onboarding2_ws/install/my_circle_pkg
