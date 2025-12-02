@@ -1,0 +1,22 @@
+[0.013s] Invoking command in '/home/johra-oishi/onboarding2_ws/build/my_circle_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johra-oishi/ros2_ws/install/my_robot_controller:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/johra-oishi/onboarding2_ws/build/my_circle_pkg -- -j8 -l8
+[0.092s] [100%] Built target circle_node
+[0.116s] Invoked command in '/home/johra-oishi/onboarding2_ws/build/my_circle_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johra-oishi/ros2_ws/install/my_robot_controller:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/johra-oishi/onboarding2_ws/build/my_circle_pkg -- -j8 -l8
+[0.135s] Invoking command in '/home/johra-oishi/onboarding2_ws/build/my_circle_pkg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johra-oishi/ros2_ws/install/my_robot_controller:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/johra-oishi/onboarding2_ws/build/my_circle_pkg
+[0.150s] -- Install configuration: ""
+[0.151s] -- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/lib/my_circle_pkg/circle_node
+[0.152s] -- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/ament_index/resource_index/package_run_dependencies/my_circle_pkg
+[0.152s] -- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/ament_index/resource_index/parent_prefix_path/my_circle_pkg
+[0.152s] -- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/environment/ament_prefix_path.sh
+[0.152s] -- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/environment/ament_prefix_path.dsv
+[0.152s] -- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/environment/path.sh
+[0.153s] -- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/environment/path.dsv
+[0.153s] -- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/local_setup.bash
+[0.153s] -- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/local_setup.sh
+[0.153s] -- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/local_setup.zsh
+[0.153s] -- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/local_setup.dsv
+[0.153s] -- Installing: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/package.dsv
+[0.154s] -- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/ament_index/resource_index/packages/my_circle_pkg
+[0.154s] -- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/cmake/my_circle_pkgConfig.cmake
+[0.154s] -- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/cmake/my_circle_pkgConfig-version.cmake
+[0.154s] -- Up-to-date: /home/johra-oishi/onboarding2_ws/install/my_circle_pkg/share/my_circle_pkg/package.xml
+[0.156s] Invoked command in '/home/johra-oishi/onboarding2_ws/build/my_circle_pkg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/johra-oishi/ros2_ws/install/my_robot_controller:/opt/ros/kilted DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/johra-oishi/onboarding2_ws/build/my_circle_pkg
